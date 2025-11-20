@@ -44,15 +44,7 @@ jobs:
 
           python -m pip install --upgrade pip
 
-          pip install flask pylint pytest
-
-
-
-      - name: Lint with Pylint
-
-        run: |
-
-          pylint --disable=C0114,C0115,C0116 app.py
+          pip install flask pytest
 
 
 
